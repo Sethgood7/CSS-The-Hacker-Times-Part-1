@@ -4,11 +4,7 @@
     font-family: Abril;
 }
 
- title{
-    font-family:Roboto Slab;
-    text-align: left;
-   
-}
+
 
  body{
     font-family: Source Sans Pro;
@@ -39,6 +35,8 @@
     margin: auto;
     max-width: 700px;
     padding: 20px;
+    background: white;
+    border-radius: 8px;
 }
 
 nav ul{
@@ -54,6 +52,11 @@ nav{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     margin: 5px;
+    position:sticky;
+    top: 0;
+    background-color: white;
+    opacity: 0.7;
+
 }
 
 nav a{
@@ -61,4 +64,29 @@ nav a{
     text-decoration: none;
     color: gray;
     text-align: center;
+}
+
+.page-head{
+    text-align: center;
+    font-family: Roboto Slab;
+}
+
+.maurice{
+    color: red;
+    font-family: Roboto Slab;
+}
+
+.more-articles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-articles section{
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 15px;
+}
+
+.more-articles img{
+    width: 100%;
+    height: auto;
 }
